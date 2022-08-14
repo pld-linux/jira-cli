@@ -34,7 +34,7 @@ will help you avoid Jira UI to some extent.
 Summary:	bash-completion for jira-cli
 Group:		Applications/Shells
 Requires:	%{name} = %{version}-%{release}
-Requires:	bash-completion >= 2.0
+Requires:	bash-completion >= 1:2.0
 BuildArch:	noarch
 
 %description -n bash-completion-jira-cli
