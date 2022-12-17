@@ -2,13 +2,13 @@
 
 Summary:	Feature-rich Interactive Jira Command Line
 Name:		jira-cli
-Version:	1.1.0
+Version:	1.2.0
 Release:	1
 License:	MIT
 Group:		Applications/Console
 #Source0Download: https://github.com/ankitpokhrel/jira-cli/releases
 Source0:	https://github.com/ankitpokhrel/jira-cli/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	8c7865c3e8f36e12009d38bc4cc1f14a
+# Source0-md5:	2f2a49b2a85a020dfecb28b03d40e24f
 # cd jira-cli-%{version}
 # go mod vendor
 # cd ..
