@@ -1,20 +1,20 @@
-%define		vendor_ver	1.3.0
+%define		vendor_ver	1.4.0
 
 Summary:	Feature-rich Interactive Jira Command Line
 Name:		jira-cli
-Version:	1.3.0
+Version:	1.4.0
 Release:	1
 License:	MIT
 Group:		Applications/Console
 #Source0Download: https://github.com/ankitpokhrel/jira-cli/releases
 Source0:	https://github.com/ankitpokhrel/jira-cli/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	fa2035b21c094d98ece1aabc3de490d8
+# Source0-md5:	0dc30cb200d3ea35834e5d3a282cfaa1
 # cd jira-cli-%{version}
 # go mod vendor
 # cd ..
 # tar cJf jira-cli-vendor-%{version}.tar.xz jira-cli-v%{version}/vendor
 Source1:	%{name}-vendor-%{vendor_ver}.tar.xz
-# Source1-md5:	23b39f13cf09f01a610e6706aa721e68
+# Source1-md5:	3a51cdc4a2ec2851538ddbf7e7f039c0
 URL:		https://github.com/ankitpokhrel/jira-cli
 BuildRequires:	golang >= 1.19
 BuildRequires:	rpm-build >= 4.6
